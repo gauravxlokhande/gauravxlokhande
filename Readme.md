@@ -90,6 +90,15 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-%23CF649A.svg?style=for-the-badge&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-%23282C34.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-%232F73B5.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![MuleSoft](https://img.shields.io/badge/MuleSoft-%2300A3E0.svg?style=for-the-badge&logo=mulesoft&logoColor=white)
+![Omnistudio](https://img.shields.io/badge/Omnistudio-%2300A1E0.svg?style=for-the-badge&logo=omnistudio&logoColor=white) <!-- Placeholder badge -->
+![Material UI](https://img.shields.io/badge/Material_UI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white)
 
 <br/>
 <hr/>
