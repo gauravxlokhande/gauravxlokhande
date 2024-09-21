@@ -17,7 +17,7 @@
   <samp>
     <a href="https://gauravxlokhande.github.io/portfolio">「 My Website 」</a>
     <br>
-    「 I am a Salesforce developer from <b>Maharastra</b> 」
+    「 a Salesforce developer from <b>Maharastra</b> 」
     <br>
     <br>
   </samp>
