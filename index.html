@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Primary Meta Tags -->
+    <title>Gaurav Lokhande | Salesforce Developer</title>
+    <meta name="title" content="Gaurav Lokhande | Salesforce Developer" />
+    <meta name="description" content="Salesforce Developer Automating Processes, Implementing AI, and Enhancing Productivity" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="google-site-verification" content="iAeGg37LQDMcB4z2j9VQI1JyHYCuhWhTaeC5-7q2Ews" />
+    <meta name="google-adsense-account" content="ca-pub-4906901590630296" />
+    <!-- <link rel="stylesheet" href=""> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+      body {
+        font-family: "Figtree", sans-serif;
+      }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-T93Q2VJM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "GTM-T93Q2VJM");
+    </script>
+
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4906901590630296"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-gray-100 dark:bg-night-900">
+    <main class="container mx-auto max-w-6xl px-4 py-6">
+      <div class="gap-5 sm:grid lg:grid-cols-3">
+        <div class="space-y-5">
+          <!-- Profile Block Starts -->
+          <div class="card bg-white relative mx-auto rounded-lg overflow-hidden">
+            <div class="overflow-hidden relative">
+              <img src="Assets/images/cover_pic.png" alt="" class="mb-0 object-cover object-center" />
+
+              <div class="flex absolute inset-0 py-2 px-4 flex items-end bg-gradient-to-t from-white">
+                <img
+                  src="https://i0.wp.com/www.sfdcamplified.com/wp-content/uploads/2024/01/word-image-7510-1.png?w=200&ssl=1"
+                  alt="Gaurav Lokhande"
+                  class="w-20 h-20 border-2 border-white rounded-full object-cover object-center shadow-md"
+                />
+              </div>
+            </div>
+            <div class="px-6 mb-2">
+              <div class="text-lg font-semibold text-gray-800 dark:text-night-50 mt-1">Gaurav Lokhande</div>
+              <div class="text-sm text-gray-700 dark:text-night-200">Software Engineer (Salesforce Developer)</div>
+            </div>
+            <div class="m-2 p-4 rounded-md bg-gray-50 text-sm text-gray-600 dark:text-night-200 mt-2">
+              <p>Salesforce Developer with 1.7+ years of experience in Sales/Experience Cloud, APEX, LWC, Integration and Lightning Flow.</p>
+              <p class="my-2">Passionate about learning new concepts of programming, Process Improvement.</p>
+
+              <div class="grid grid-cols-2 gap-2 mt-4">
+                <div class="flex justify-center">
+                  <a
+                    href="https://www.linkedin.com/in/gauravlokhande"
+                    target="_blank"
+                    class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center gap-2 rounded-md w-full text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    Connect on
+                    <img src="Assets/icons/linkedein.svg" />
+                  </a>
+                </div>
+
+                <div class="flex justify-center">
+                  <a
+                    href="https://www.salesforce.com/trailblazer/gauravlokhande"
+                    target="_blank"
+                    class="flex items-center justify-center px-3 py-2 text-sm font-medium text-center gap-2 rounded-md w-full text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+                  >
+                    Follow on
+                    <img src="Assets/icons/Trailhead_old.svg" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Profile Block Ends -->
+
+          <!-- Information Block Starts -->
+          <div class="card bg-white p-2 rounded-lg">
+            <h2
+              class="ml-2 my-1 flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-4"
+            >
+              Information
+            </h2>
+            <div class="px-2 py-2.5 rounded-md bg-gray-50 text-sm text-gray-600 dark:text-night-200">
+              <ul class="list-none">
+                <li class="flex justify-between border-b pb-2.5">
+                  <span>Location</span>
+                  <span>Bengaluru, Karnataka, India</span>
+                </li>
+                <li class="flex justify-between border-b py-2.5">
+                  <span>Experience</span>
+                  <span id="experience"></span>
+                </li>
+                <li class="flex justify-between pt-2.5">
+                  <span>Email</span>
+                  <span>gaurravlokhande@gmail.com</span>
+                </li>
+                <!-- <li class="flex justify-between pt-2.5">
+                                <span>Relocation</span>
+                                <span>No</span>
+                            </li> -->
+              </ul>
+            </div>
+          </div>
+          <!-- Information Block Ends -->
+
+          <!-- Skill Block Starts -->
+          <div class="card bg-white p-4 pt-2 rounded-lg">
+            <h2
+              class="my-1 flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-4"
+            >
+              Skills &amp; Expertise
+            </h2>
+            <div class="-m-2 flex flex-wrap gap-2">
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Salesforce </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Sales Cloud </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Digital Experience Sites </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Experience Cloud </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Service Cloud </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> APEX </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> LWC </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> SOQL </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Tailwind </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Bootstrap </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> SASS </span>
+              <!-- <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> AURA </span> -->
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> REST API </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Integration </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Lightning Flow </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> HTML 5 </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> CSS 3 </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> JavaScript </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Postman </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Workbench </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Data Loader </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> SFDX CLI </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Git </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Gitlab </span>
+              <!-- <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> JIRA </span>
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> PHP CI4 </span> -->
+              <!-- <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> SQL </span> -->
+              <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> ReactJS </span>
+              <!-- <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Semantic UI </span> -->
+              <!-- <span class="cursor-pointer bg-gray-100 text-gray-600 hover:bg-gray-200 text-xs px-2 py-1 rounded-md"> Photoshop CC </span> -->
+            </div>
+          </div>
+          <!-- Skill Block Ends -->
+
+          <!-- Achievements Block Starts -->
+          <div class="card bg-white p-2 pt-2 rounded-lg">
+            <h2
+              class="my-1 ml-2 flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-2"
+            >
+              Achievements
+            </h2>
+            <div class="p-6 bg-white rounded-lg shadow-md">
+              <!-- Achievement Block 1 -->
+              <div class="flex items-center pb-3 mb-3 border-b border-gray-200">
+                <p class="text-sm text-gray-700 font-medium w-40">1st Prize Winner</p>
+                <div class="flex items-center text-xs font-medium text-gray-600 ml-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 text-blue-500">
+                    <path
+                      fill="currentColor"
+                      d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                    ></path>
+                  </svg>
+                  <span class="ml-2">Salesforce Impact Hackathon</span>
+                </div>
+              </div>
+
+              <!-- Achievement Block 2 -->
+              <div class="flex items-center pb-3 mb-3 border-b border-gray-200">
+                <p class="text-sm text-gray-700 font-medium w-40">Finalist of I2I</p>
+                <div class="flex items-center justify-between text-xs font-medium text-gray-600 ml-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 text-blue-500">
+                    <path
+                      fill="currentColor"
+                      d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                    ></path>
+                  </svg>
+                  <span class="ml-2">Ignite Innovators of India</span>
+                </div>
+              </div>
+
+              <!-- Achievement Block 3 -->
+              <div class="flex items-center pb-3 mb-3 border-b border-gray-200">
+                <p class="text-sm text-gray-700 font-medium w-40">Double Star Ranger</p>
+                <div class="flex items-center text-xs font-medium text-gray-600 ml-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 text-blue-500">
+                    <path
+                      fill="currentColor"
+                      d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                    ></path>
+                  </svg>
+                  <span class="ml-2">Trailhead</span>
+                </div>
+              </div>
+
+              <!-- Commented out: Achievement Block 4 -->
+              <!-- <div class="flex items-center">
+                  <p class="text-sm text-gray-700 font-medium w-40">Star Performer of the Year</p>
+                  <div class="flex items-center text-xs font-medium text-gray-600 ml-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-4 h-4 text-blue-500">
+                      <path fill="currentColor" d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"></path>
+                    </svg>
+                    <span class="ml-2">iBirds Software Services</span>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+          <!-- Achievements Block Ends -->
+
+          <!-- Publications Block Starts -->
+          <div class="card bg-white p-4 pt-2 rounded-lg">
+            <h2
+              class="my-1 flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-4"
+            >
+              Publications
+            </h2>
+            <div class="p-2">
+              <!-- Publication 1 -->
+              <div class="flex items-center">
+                <img src="Assets/images/salesfroce.png" class="w-8 h-8" />
+                <div>
+                  <a
+                    class="text-blue-800 hover:text-blue-900 font-semibold ml-4"
+                    href="https://github.com/gauravxlokhande/Custom-Related-List-LWC-Component-Salesforce"
+                    target="_blank"
+                    >Custom Related List
+                  </a>
+                  <p class="text-xs text-gray-500 ml-4">Lwc Component</p>
+                </div>
+              </div>
+              <!-- Publication 2 -->
+              <!-- <div class="flex items-center mt-4">
+                <img src="Assets/images/salesforce-user-login.png" class="w-8 h-8" />
+                <div>
+                  <a
+                    class="text-blue-800 hover:text-blue-900 font-semibold ml-4"
+                    href="https://chromewebstore.google.com/detail/salesforce-user-login/hjmcdlnohlfebdibegkcdhjifjfphjgb"
+                    target="_blank"
+                    >Salesforce User Login</a
+                  >
+                  <p class="text-xs text-gray-500 ml-4">Chrome Extension</p>
+                </div>
+              </div> -->
+              <!-- Publication 3 -->
+              <!-- <div class="flex items-center mt-4">
+                <img src="Assets/images/salesforce-assistant.png" class="w-8 h-8" />
+                <div>
+                  <a
+                    class="text-blue-800 hover:text-blue-900 font-semibold ml-4"
+                    href="https://chromewebstore.google.com/detail/salesforce-assistant/acpngnlieelljdlljmenkagbonaicccj"
+                    target="_blank"
+                    >Salesfroce Assistant</a
+                  >
+                  <p class="text-xs text-gray-500 ml-4">Chrome Extension</p>
+                </div>
+              </div> -->
+              <!-- Publication 4 -->
+              <!-- <div class="flex items-center mt-4">
+                <img src="Assets/images/salesfroce.png" class="w-8 h-8" />
+                <div>
+                  <a
+                    class="text-blue-800 hover:text-blue-900 font-semibold ml-4"
+                    href="https://marketplace.visualstudio.com/items?itemName=Nik-Creation.lwc-salesforce"
+                    target="_blank"
+                    >Salesforce LWC Short Keys</a
+                  >
+                  <p class="text-xs text-gray-500 ml-4">VS Code Extension</p>
+                </div>
+              </div> -->
+              <!-- Publication 5 -->
+              <!-- <div class="flex items-center mt-4">
+                <img src="Assets/images/salesforce-grid.png" class="w-8 h-8" />
+                <div>
+                  <a
+                    class="text-blue-800 hover:text-blue-900 font-semibold ml-4"
+                    href="https://chromewebstore.google.com/detail/salesforce-lightning-grid/nenellcdpeipfeeiobkkchdpjdiophpg?hl=en"
+                    target="_blank"
+                    >Salesforce Lightning Grid System</a
+                  >
+                  <p class="text-xs text-gray-500 ml-4">Chrome Extension</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <!-- Publications Block Ends -->
+
+          <!-- Certifications Block Starts -->
+          <div class="card bg-white p-4 pt-2 rounded-lg">
+            <h2
+              class="my-1 flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-4"
+            >
+              <a href="https://www.salesforce.com/trailblazer/gauravlokhande" target="_blank" title="Click to verify">Certifications (1X)</a>
+            </h2>
+            <div class="p-2">
+              <!-- Main SF Certifications -->
+              <div class="flex flex-wrap">
+                <!-- <img src="Assets/certifications/Architect.Certification.png" title="Sharing & Visibility Architect" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/Sharing.and.Visibility.Architect.png" title="Sharing & Visibility Architect" class="w-24 mr-2 mb-2" />
+
+                <img src="Assets/certifications/Data.Architect.Certification.png" title="Sharing & Visibility Architect" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/SalesCloudConsultant.png" title="Service Cloud Consultant" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/Service.Consultant.png" title="Service Cloud Consultant" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/ExperienceCloudConsultant.png" title="Service Cloud Consultant" class="w-24 mr-2 mb-2" /> -->
+
+                <img src="Assets/certifications/Programmer.I.png" title="Platform Developer 1" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/triple-star-ranger.png" title="Platform Developer 2" class="w-24 mr-2 mb-2" />
+                <!-- <img src="Assets/certifications/JavaScript1.png" title="OmniStudio Developer" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/App.Builder.png" title="App Builder" class="w-24 mr-2 mb-2" />
+                <img src="Assets/certifications/Administrator.png" title="Administrator" class="w-24 mr-2 mb-2" /> -->
+
+                <!-- Associate SF Certifications -->
+                <!-- <div class="flex flex-wrap">
+                  <img src="Assets/certifications/Associate.png" title="Salesforce Associate" class="w-24 mr-2 mb-2" />
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!-- Certifications Block Ends -->
+        </div>
+        <!-- Main Block Starts -->
+        <div class="mt-4 space-y-5 sm:mt-0 lg:col-span-2">
+          <!-- Experience Block Starts -->
+          <div class="card bg-white p-3 rounded-lg">
+            <h2
+              class="flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-3 ml-2"
+            >
+              Experience
+            </h2>
+            <!-- Experience Block 2 -->
+            <div class="mb-5 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/company_logos/IDRMS_technologies.jpg" class="mb-2 md:mb-0" style="width: 3rem" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Salesforce Developer</div>
+                    <div class="order-last inline-flex items-center border rounded-lg bg-white px-2 py-1 text-xs font-medium text-primary-500">
+                      Full-time
+                    </div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                        />
+                      </svg>
+                      <span class="ml-1"> IDRMS Technologies Pvt. Ltd. </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Bengaluru, Karnataka, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> Dec 2024 - Present </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-sm text-gray-600 mt-2">
+                  <div class="my-2">
+                    <!-- <p class="font-semibold mb-1 mt-3 text-gray-700">Salesforce Development</p> -->
+                    <ul class="list-disc pl-5">
+                      <!-- <li>Built complex solutions in Apex, Trigger, LWC Component, Aura Components, SOQL, API Integrations and process builder.</li>
+                        <li>Integrated Inbound and outbound REST APIs for Split Org using Custom and Standard Objects.</li>
+                        <li>Fixed production bugs, Optimized SOQL, and maintained code quality with Best Practices.</li>
+                        <li>Contributed to DevOps processes, including Dev Sandbox setup, code deployment via Changeset, GitLab, and VSCode.</li>
+                        <li>Handled data migration, export/import, and mapping to business objects in Data Loader.</li>
+                        <li>Maintained custom objects, fields, layouts, custom metadata/settings, and labels.</li>
+                        <li>Managed Profiles, Permission Sets, Apex Class Security, and OWD Settings.</li>
+                        <li>Ensured high-quality code delivery and adherence to best practices.</li> -->
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mb-2">
+                                      <p class="font-semibold mb-1 text-gray-700">
+                                          Knowledge Transfer &amp; Code Quality
+                                      </p>
+                                      <ul class="list-disc pl-5">
+                                          <li>
+                                              Conducted functional &amp; technical KT sessions for 20+
+                                              new team members.
+                                          </li> 
+                                      </ul>
+                                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- Experience Block 1 -->
+            <div class="mb-5 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/company_logos/theCodingStudiologo.jpg" class="mb-2 md:mb-0" style="width: 3rem" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Software Engineer(Salesforce Developer)</div>
+                    <div class="order-last inline-flex items-center border rounded-lg bg-white px-2 py-1 text-xs font-medium text-primary-500">
+                      Full-time
+                    </div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                        />
+                      </svg>
+                      <span class="ml-1"> The Coding Studio </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Surat, Gujarat, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> July 2023 - December 2024 </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-sm text-gray-600 mt-2">
+                  <p>
+                    As a seasoned Salesforce professional, I consistently applied best practices to streamline processes, deliver customized client
+                    solutions, and foster innovation within my team.
+                  </p>
+
+                  <div class="my-2">
+                    <p class="font-semibold mb-1 text-gray-700">Custom Application Development</p>
+                    <ul class="list-disc pl-5">
+                      <li>
+                        Developed and customized Salesforce applications by creating and configuring custom objects, optimizing data relationships,
+                        and implementing business logic using Apex and SOQL.
+                      </li>
+                      <li>Designed Flows, Triggers, and Apex classes for efficient data retrieval and manipulation.</li>
+                      <li>
+                        Managed data access through sharing settings, profiles, and field permissions, ensuring secure and streamlined operations.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="mb-2">
+                    <p class="font-semibold mb-1 text-gray-700">User Interface Development</p>
+                    <ul class="list-disc pl-5">
+                      <li>Built responsive user interfaces using Lightning Web Components (LWC), enhancing user engagement and experience.</li>
+                      <li>
+                        Successfully deployed solutions on Experience Cloud, customized themes for optimal presentation, and managed guest user
+                        permissions through custom domains.
+                      </li>
+                      <li>
+                        Developed custom LWC components, integrated APIs, and managed profiles and permission sets to ensure data security and
+                        compliance.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="mb-2">
+                    <p class="font-semibold mb-1 text-gray-700">Integration and Security Implementation</p>
+                    <ul class="list-disc pl-5">
+                      <li>Implemented secure API integrations using Remote Site Settings, Metadata Types, and Named Credentials.</li>
+                      <li>Configured sharing settings, profiles, permission sets, and field permissions for precise data access control.</li>
+                      <li>
+                        Leveraged Experience Cloud to deliver personalized and secure user experiences, enhancing client satisfaction and operational
+                        efficiency.
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- <div class="mb-2">
+                    <p class="font-semibold mb-1 text-gray-700">Documentation</p>
+                    <ul class="list-disc pl-5">
+                      <li>
+                        Created Business Requirements Documents, Estimated Time of Arrival (ETA) documents, and comprehensive administrative and
+                        technical documentation, providing clarity and guidance for project execution.
+                      </li>
+                      <li>
+                        Trained and mentored over 20+ resources on Salesforce Administration and Development, fostering a culture of continuous
+                        learning and skill development within the team.
+                      </li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience Block 3 -->
+            <!-- <div class="mb-5 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/company_logos/emerson.svg" class="mb-2 md:mb-0 ml-0 md:mx-3" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Vendor Development Engineer</div>
+                    <div class="order-last inline-flex items-center border rounded-lg bg-white px-2 py-1 text-xs font-medium text-primary-500">
+                      Full-time
+                    </div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M7 5V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zM4 16v3h16v-3zm0-2h16V7H4zM9 3v2h6V3zm2 8h2v2h-2z"
+                        />
+                      </svg>
+                      <span class="ml-1"> Emerson Automation Solutions </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Pune, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> Jul 2018 - Jul 2019 </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-sm text-gray-600 mt-4">
+                  <div class="my-2">
+                    <ul class="list-disc pl-5">
+                      <li>Created &amp; managed custom objects, fields, page layouts to support business operations.</li>
+                      <li>Created various reports &amp; dashboards to provide valuable insights.</li>
+                      <li>Implemented the Data Import Wizard for efficient data import &amp; export operations.</li>
+                      <li>
+                        Contributed 26 Kaizens to enhance speed, efficiency, &amp; eliminate manual errors in daily operations which increased
+                        productivity.
+                      </li>
+                      <li>
+                        Achieved significant time savings through Excel automation, reducing a 6-hour task to just 10 minutes using Excel formulas
+                        &amp; macros.
+                      </li>
+                      <li>Utilized Value Stream Mapping (VSM) for data analysis &amp; business strategy development.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- Experience Block Ends -->
+
+          <!-- Education Block Starts-->
+          <div class="card bg-white p-3 rounded-lg">
+            <h2
+              class="flex text-lg font-semibold dark:text-night-50 items-center before:inline-block before:h-1.5 before:w-1.5 before:bg-blue-500 before:rounded-full before:mr-2 before:self-center mb-3 ml-2"
+            >
+              Education
+            </h2>
+            <!-- Education Block 1 -->
+            <div class="mb-3 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/images/Sant_Gadge_Baba_Amravati_University_logo.png" class="mb-2 md:mb-0 w-10" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Amravati University</div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5" class="v.5">
+                        <path
+                          fill="currentColor"
+                          d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
+                        />
+                      </svg>
+                      <span class="ml-1"> Bachelor In Computer Science </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Amravati, Maharastra, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> 2023 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Education Block 2 -->
+            <div class="mb-3 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/images/school_logo.jpg" class="mb-2 md:mb-0 w-10 mix-blend-multiply" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Nutan Jr College</div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5" class="v.5">
+                        <path
+                          fill="currentColor"
+                          d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
+                        />
+                      </svg>
+                      <span class="ml-1"> HSC</span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Malkapur, Maharastra, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> 2019 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Education Block 3 -->
+            <div class="mb-3 md:flex md:items-start p-4 bg-gray-50 hover:bg-gray-100 rounded-lg">
+              <img src="Assets/images/school_logo.jpg" class="mb-2 md:mb-0 w-10 mix-blend-multiply" />
+              <div class="ml-0 md:ml-3 w-full">
+                <div class="company_description">
+                  <div class="flex items-end justify-between items-center">
+                    <div class="font-semibold text-gray-700 dark:text-night-50">Nutan School</div>
+                  </div>
+
+                  <div class="flex flex-wrap items-center mt-2 gap-2 md:gap-4">
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5" class="v.5">
+                        <path
+                          fill="currentColor"
+                          d="M4 11.333L0 9l12-7l12 7v8.5h-2v-7.333l-2 1.166v6.678l-.223.275A9.983 9.983 0 0 1 12 22a9.983 9.983 0 0 1-7.777-3.714L4 18.011zM6 12.5v4.792A7.979 7.979 0 0 0 12 20a7.978 7.978 0 0 0 6-2.708V12.5L12 16zM3.97 9L12 13.685L20.03 9L12 4.315z"
+                        />
+                      </svg>
+                      <span class="ml-1"> SSC </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="m12 23.728l-6.364-6.364a9 9 0 1 1 12.728 0zm4.95-7.778a7 7 0 1 0-9.9 0L12 20.9zM12 13a2 2 0 1 1 0-4a2 2 0 0 1 0 4"
+                        />
+                      </svg>
+                      <span class="ml-1"> Malkapur,Maharastra, India </span>
+                    </div>
+                    <div class="flex items-center text-xs font-semibold text-gray-600 dark:text-night-400">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3.5 h-3.5">
+                        <path
+                          fill="currentColor"
+                          d="M9 1v2h6V1h2v2h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1zm11 10H4v8h16zm-9 2v4H6v-4zM7 5H4v4h16V5h-3v2h-2V5H9v2H7z"
+                        />
+                      </svg>
+                      <span class="ml-1"> 2018 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Education Block Starts-->
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script>
+    window.onload = (event) => {
+      function dateDifference(startDate, endDate) {
+        // Ensure the input dates are Date objects
+        if (!(startDate instanceof Date) || !(endDate instanceof Date)) {
+          throw new Error("Both startDate and endDate must be Date objects");
+        }
+
+        // Normalize the dates
+        const start = new Date(startDate);
+        const end = new Date(endDate);
+
+        // Calculate the difference in years
+        let years = end.getFullYear() - start.getFullYear();
+        let months = end.getMonth() - start.getMonth();
+        let days = end.getDate() - start.getDate();
+
+        // Adjust months and years if necessary
+        if (days < 0) {
+          months--;
+          // Calculate the number of days in the previous month
+          const lastMonth = new Date(end.getFullYear(), end.getMonth() - 1, 0);
+          days += lastMonth.getDate();
+        }
+
+        if (months < 0) {
+          years--;
+          months += 12;
+        }
+
+        return { years, months, days };
+      }
+
+      // Define the specific date and get today's date
+      const specificDate = new Date("2023-07-03");
+      const today = new Date();
+
+      // Calculate the difference
+      const diff = dateDifference(specificDate, today);
+
+      // Get the span element and update its content
+      const experienceSpan = document.getElementById("experience");
+      experienceSpan.textContent = `${diff.years} Years, ${diff.months} Months, ${diff.days} Days`;
+    };
+  </script>
+</html>
