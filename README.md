@@ -6,25 +6,14 @@
 <h2 align="center">👋 Hello, I'm Gaurav Lokhande</h2>
 
 <p align="center">
-  A passionate self-taught developer on a journey to master <strong>Web Development</strong>, <strong>DSA</strong>, and <strong>Modern Tech Stacks</strong>.
+<p><strong>Empowering businesses with seamless Salesforce solutions –</strong> where innovation meets efficiency.</p>
 </p>
 
----
-
-### 🚀 About Me
-
-- 💻 Currently working on **React.js Projects** and improving my **C++ and DSA** skills  
-- 🔄 Participating in the **#100DaysOfCode Challenge**  
-- 🧠 Exploring **Front-End Development** and **Problem Solving**  
-- 💬 Ask me about: `HTML`, `CSS`, `JavaScript`, `React`, `C++`, or `SQL`  
-- 🛠️ Practicing on [LeetCode](https://leetcode.com/u/TonyStark19/) and [HackerRank](https://www.hackerrank.com/profile/adityachandel371)  
-- 📢 Sharing daily progress on [LinkedIn](https://linkedin.com/in/aditya-chandel-dev) and [Twitter](https://twitter.com/iamaditya_3)
-
----
 
 ### 🧰 Tools & Technologies
 
 <p align="center">
+  
 <!-- Frontend & Styling -->
 ![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-264de4?style=for-the-badge&logo=css3&logoColor=white)
