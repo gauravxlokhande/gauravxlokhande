@@ -33,9 +33,6 @@
 ### 📈 GitHub Stats :
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gauravxlokhande&show_icons=true&theme=tokyonight)
 
-## Current Streak :
-![GitHub Streak](https://streak-stats.demolab.com/?user=gauravxlokhande&theme=tokyonight)
- 
 ## Most Used Languages :
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gauravxlokhande&layout=compact&theme=tokyonight)
 
