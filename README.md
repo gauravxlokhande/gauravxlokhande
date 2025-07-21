@@ -31,13 +31,13 @@
 ---
 
 ### 📈 GitHub Stats :
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gauravxlokhande-19&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gauravxlokhande&show_icons=true&theme=tokyonight)
 
 ## Current Streak :
-![GitHub Streak](https://streak-stats.demolab.com/?user=gauravxlokhande-19&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com/?user=gauravxlokhande&theme=tokyonight)
  
 ## Most Used Languages :
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gauravxlokhande-19&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gauravxlokhande&layout=compact&theme=tokyonight)
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravxlokhande&theme=react-dark&hide_border=true&hide_title=false&area=true&custom_title=Total%20Contribution%20Graph%20in%20All%20Repositories" width="100%" alt="@gauravxlokhande's GitHub Contribution Graph" />
@@ -56,12 +56,12 @@
 ### 🌐 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/aditya-chandel-dev"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/iamaditya_3"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-  <a href="https://instagram.com/aaditya_ch124"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-  <a href="https://leetcode.com/u/TonyStark19/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
-  <a href="https://www.hackerrank.com/profile/adityachandel371"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>
-  <a href="https://medium.com/@adityachandel371"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/gaurav-lokhande"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://twitter.com/gauravxlokhande"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+  <a href="https://instagram.com/gauravxlokhande"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+  <a href="https://leetcode.com/u/gauravxlokhande"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/></a>
+  <a href="https://www.hackerrank.com/profile/gauravxlokhande"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>
+  <a href="https://medium.com/@gauravxlokhande"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white"/></a>
 </p>
 
 ---
